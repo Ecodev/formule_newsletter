@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-12-29T11:21:34Z"
+	      product-name="formule">
+		<header/>
+		<body>
+
+			<!--Tabs -->
+			<trans-unit id="tab.newsletter">
+				<source>Newsletter</source>
+			</trans-unit>
+
+			<!-- Custom fields -->
+			<trans-unit id="token">
+				<source>Token</source>
+			</trans-unit>
+			<trans-unit id="is_email_verified">
+				<source>Is email verified?</source>
+			</trans-unit>
+			<trans-unit id="is_newsletter_active">
+				<source>Is newsletter active?</source>
+			</trans-unit>
+
+		</body>
+	</file>
+</xliff>

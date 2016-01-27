@@ -37,11 +37,11 @@ plugin.tx_formule {
             3 >
             3 {
                 title = LLL:EXT:formule/Resources/Private/Language/locallang.xlf:newsletter.edit
-                #path = EXT:formule/Resources/Private/Templates/SubscriptionEdit.html
+                #path = EXT:formule_newsletter/Resources/Private/Templates/SubscriptionEdit.html
                 path = EXT:formule/Resources/Private/Standalone/Newsletter/SubscriptionEdit.html
 
                 loaders {
-                    0 = Fab\Formule\Loader\UserDataLoader
+                    0 = Fab\FormuleNewsletter\Loader\UserDataLoader
                 }
 
                 validators {
@@ -55,7 +55,12 @@ plugin.tx_formule {
 
                     processors {
                         0 = Fab\FormuleNewsletter\Processor\NewsletterEditProcessor
+                        1 = Fab\FormuleNewsletter\Processor\NewsletterDeleteProcessor
                     }
+                }
+
+                redirect {
+                    action = show
                 }
             }
         }

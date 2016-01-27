@@ -20,6 +20,9 @@
 			<trans-unit id="is_newsletter_active">
 				<source>Is newsletter active?</source>
 			</trans-unit>
+			<trans-unit id="newsletter.email.confirmed">
+				<source>Your email address has been confirmed.</source>
+			</trans-unit>
 
 		</body>
 	</file>

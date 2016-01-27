@@ -1,8 +1,8 @@
 {
-	"name": "fab/formule",
+	"name": "fab/formule-newsletter",
 	"type": "typo3-cms-extension",
 	"description": "Handle Newsletter workflow such as new subscription, newsletter preferences edition - based on extension \"formule\"",
-	"homepage": "https://github.com/Ecodev/formule",
+	"homepage": "https://github.com/Ecodev/formule_newsletter",
 	"license": ["GPL-2.0+"],
 	"keywords": ["TYPO3 CMS", "generic listing"],
 	"support": {

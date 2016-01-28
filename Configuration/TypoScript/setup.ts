@@ -1,6 +1,5 @@
 plugin.tx_formule {
 
-
     settings {
 
         templates {
@@ -9,12 +8,16 @@ plugin.tx_formule {
             2 >
             2 {
                 title = LLL:EXT:formule/Resources/Private/Language/locallang.xlf:newsletter.new
-                #path = EXT:formule_newsletter/Resources/Private/Templates/SubscriptionNew.html
                 path = EXT:formule/Resources/Private/Standalone/Newsletter/SubscriptionNew.html
 
                 validators {
                     0 = Fab\Formule\Validator\EmailUniqueValidator
                     1 = Fab\Formule\Validator\EmailFormatValidator
+                }
+
+                # Variable to be used across the template.
+                variable {
+                    preferencesPageUid = 1
                 }
 
                 # Persist configuration
@@ -29,7 +32,6 @@ plugin.tx_formule {
                     processors {
                         0 = Fab\FormuleNewsletter\Processor\NewsletterNewProcessor
                     }
-
                 }
             }
 
@@ -37,7 +39,6 @@ plugin.tx_formule {
             3 >
             3 {
                 title = LLL:EXT:formule/Resources/Private/Language/locallang.xlf:newsletter.edit
-                #path = EXT:formule_newsletter/Resources/Private/Templates/SubscriptionEdit.html
                 path = EXT:formule/Resources/Private/Standalone/Newsletter/SubscriptionEdit.html
 
                 loaders {

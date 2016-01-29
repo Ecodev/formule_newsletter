@@ -15,13 +15,13 @@
 				<target>Token</target>
 			</trans-unit>
 			<trans-unit id="is_email_verified">
-				<target>Email vérifié?</target>
+				<target>E-mail geprüft?</target>
 			</trans-unit>
 			<trans-unit id="is_newsletter_active">
-				<target>Recevoir la newsletter?</target>
+				<target>Den Newsletter erhalten?</target>
 			</trans-unit>
 			<trans-unit id="newsletter.email.confirmed">
-				<target>Votre adresse email a été vérifiée.</target>
+				<target>Ihre E-mail Adresse wurde geprüft.</target>
 			</trans-unit>
 
 		</body>
